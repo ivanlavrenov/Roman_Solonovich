@@ -136,14 +136,13 @@ body{
 	position: absolute;
 	bottom: 415px;
 	left: 245px;
+	animation: around 3s;
 }
 
 @keyframes around {
   0% { left: 245; top: -110px; transform: rotate(0deg); }
   100% { left: 245px; top: 43px; transform: rotate(360deg); }
-
 }
-.glases { animation: around 3s; }
 
 
 .rs{
