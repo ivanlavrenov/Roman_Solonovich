@@ -321,6 +321,24 @@ h2{
 	border-radius: 15px;
 }
 
+.points{
+	position: relative;
+	left: 335px;
+	top: 20px;
+}
+
+.points2{
+	position: relative;
+	left: 335px;
+	bottom: 50px;
+}
+
+.points3{
+	position: relative;
+	left: 335px;
+	bottom: 110px;
+}
+
 
 .gif{
 	box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.08), inset -4px 4px 10px rgba(255, 255, 255, 0.4);
@@ -456,6 +474,7 @@ h3{
 	width: 100%;
 	justify-content: center;
 	margin-top: 30px;
+	height: 1430px;
 }
 
 .left_block{
@@ -519,7 +538,6 @@ h3{
 .sheet{
 	z-index: 0;
 }
-
 
 
 
@@ -844,4 +862,49 @@ h6{
 	bottom: 445px;
 	left: 283px;
 	width: 132px;
+}
+
+.side_btn{
+	position: relative;
+}
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    
+}
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    /**/
 }
