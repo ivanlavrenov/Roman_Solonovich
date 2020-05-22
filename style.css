@@ -71,12 +71,19 @@ body{
 	margin-top: 190px;
 	margin-left: 30px;
 	margin-bottom: 26px;
+	cursor: pointer;
+}
+
+.number:hover{
+	color: #443E5B;
 }
 
 
 .logos{
 	margin-right: 19px;
+	cursor: pointer;
 }
+
 
 .dribbble{
 	position: relative;
@@ -100,6 +107,11 @@ body{
 	margin-top: 0;
 	margin-bottom: 36px;
 	margin-right: 30px;
+	cursor: pointer;
+}
+
+.leng:hover{
+	color: #443E5B;
 }
 
 .us{
@@ -109,6 +121,8 @@ body{
 	top: 1px;
 	margin-right: 4px;
 }
+
+
 
 .bot{
 	display: flex;
@@ -204,14 +218,16 @@ body{
     width: 700px;
     overflow: hidden;
     display: block;
+    opacity: 0.5; 
     height: 700px;
-    background: linear-gradient(0deg, rgba(240, 239, 244, 0.53), rgba(240, 239, 244, 0.53)), url(image.png);
 	box-shadow: 4.66667px 4.66667px 12.4444px rgba(0, 0, 0, 0.1), -4.66667px -4.66667px 12.4444px rgba(255, 255, 255, 0.5);
 	border-radius: 15px;
+	z-index: 1;
 }
 
 #glass{
     margin-left: -120px;
+    z-index: 2;
 }
 
 .button{
@@ -240,6 +256,7 @@ body{
 	text-transform: uppercase;
 	color: #FFFFFF;
 	text-shadow: -1px -1px 4px rgba(255, 255, 255, 0.5), 2px 2px 4px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
 }
 
 .fourth{
@@ -833,7 +850,10 @@ input[type=text] {
     background: #F0EFF4;
 }
 
-
+.line:hover{ 
+	text-decoration-line: underline;
+	cursor: pointer;
+}
 
 .double3{
 	position: relative;
@@ -856,10 +876,43 @@ input[type=text] {
 
 .foot_ellipse{
 	position: relative;
-	width: 156px;
-	bottom: 330px;
-	left: 250px;
+	bottom: 342px;
+	left: 260px;
+	width: 136px;
+	height: 136px;
+	background: #F0EFF4;
+	box-shadow: 4.3311px 4.3311px 11.5496px rgba(0, 0, 0, 0.1), -4.3311px -4.3311px 11.5496px rgba(255, 255, 255, 0.5);
+	border-radius: 14.437px;
+	border-radius: 50%;
+	overflow: hidden;
+	cursor: pointer;
 }
+
+.foot_ellipse:focus{
+	background: #F0EFF4;
+	border: 1px solid #DEDEDE;
+	box-sizing: border-box;
+	box-shadow: 4.3311px 4.3311px 11.5496px rgba(0, 0, 0, 0.1), -4.3311px -4.3311px 11.5496px rgba(255, 255, 255, 0.5);
+	border-radius: 14.437px;
+}
+
+.foot_ellipse:hover{
+	background: #F0EFF4;
+	box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.12), -8px -8px 16px rgba(255, 255, 255, 0.52);
+	border-radius: 14.437px;
+	border-radius: 50%;
+}
+
+.foot_ellipse:active{
+	background: #F0EFF4;
+	border: 1px solid #E7E7E7;
+	box-sizing: border-box;
+	box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.08), inset -4px 4px 10px rgba(255, 255, 255, 0.4);
+	border-radius: 8px;
+	border-radius: 14.437px;
+	border-radius: 50%;
+}
+
 
 .foot_text{
 	position: relative;
@@ -875,8 +928,9 @@ input[type=text] {
 	text-transform: uppercase;
 	color: #8E86AC;
 	bottom: 445px;
-	left: 283px;
-	width: 132px;
+	top: 35px;
+	left: 22px;
+	cursor: pointer;
 }
 
 .side_btn{
