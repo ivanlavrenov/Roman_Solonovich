@@ -1136,6 +1136,9 @@ body{
 	width: 774px;
 }
 
+.showreel_text{
+	width: 300px;
+}
 
 
 
@@ -1342,6 +1345,20 @@ h3{
 	bottom: 330px;
 }
 
+.resume_ul2{
+	position: relative;
+	width: 200px;
+	margin-right: 0;
+}
+
+.resume_side_text{
+	width: 300px;
+}
+
+
+.registr_text{
+	width: 300px;
+}
 
 
 
