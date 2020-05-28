@@ -54,3 +54,26 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 };
+
+
+
+function view(){
+    document.getElementById("accept2").style.visibility = "visible";
+};
+
+
+function hid(){
+    document.getElementById("accept2").style.visibility = "hidden";
+};
+
+
+$(function() {
+  // Owl Carousel
+  var owl = $(".owl-carousel");
+  owl.owlCarousel({
+    items: 3,
+    margin: 550,
+    loop: true,
+    nav: true
+  });
+});
