@@ -1037,13 +1037,14 @@ input[type=text] {
 
 body{
 	max-width: 992px;
+	min-width: 760px;
 	display: block;
 }
 
 .adapt{
 	position: relative;
 	display: block;
-	width: 790px;
+	width: 760px;
 }
 
 .top{
@@ -1053,7 +1054,7 @@ body{
 
 .first{
 	position: relative;
-	width: 774px;
+	width: 760px;
 	height: 531px;
 	margin-left: auto;
 	margin-right: auto;
@@ -1085,7 +1086,7 @@ body{
 
 .second{
 	position: relative;
-	width: 774px;
+	width: 760px;
 	height: 700px;
 	margin-left: auto;
 	margin-right: auto;
@@ -1123,8 +1124,8 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
-	width: 774px;
-	height: 774px;
+	width: 760px;
+	height: 760px;
 }
 
 .projects{
@@ -1133,7 +1134,7 @@ body{
 
 .container{
 	position: relative;
-	width: 774px;
+	width: 760px;
 }
 
 .showreel_text{
@@ -1146,7 +1147,7 @@ body{
 .fourth{
 	margin-left: auto;
 	margin-right: auto;
-	width: 774px;
+	width: 760px;
 	height: 651px;
 	margin-top: -100px;
 }
@@ -1334,7 +1335,7 @@ h3{
 
 .worth, .resume, .registration{
 	position: relative;
-	width: 774px;
+	width: 760px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -1351,8 +1352,8 @@ h3{
 	margin-right: 0;
 }
 
-.resume_side_text{
-	width: 300px;
+.resume_side_text2{
+	width: 200px;
 }
 
 
@@ -1360,8 +1361,13 @@ h3{
 	width: 300px;
 }
 
+.resume{
+	height: 764px;
+}
 
-
+.foot_btn{
+	display: none;
+}
 
 
 @media screen and (max-width: 760px){
