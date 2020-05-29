@@ -1417,7 +1417,7 @@ body{
 	font-size: 12px;
 	width: 260px;
 	margin-left: 15px;
-	margin-top: -140px;
+	margin-top: -130px;
 }
 
 
@@ -1425,7 +1425,7 @@ body{
  	position: relative;
  	bottom: 6px;
  	font-size: 12px;
- 	margin-top: 0;
+ 	margin-top: -20px;
  	margin-left: 15px;
  	margin-bottom: 5px;
 }
