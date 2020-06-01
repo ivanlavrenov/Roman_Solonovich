@@ -1051,6 +1051,10 @@ input[type=text] {
 	height: 600px;
 }
 
+.photo{
+	width: 600px;
+}
+
 .rs{
 	font-size: 170px;
 	top: -150px;
