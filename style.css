@@ -227,6 +227,7 @@ body{
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
+	margin-bottom: 30px;
 }
 
 .third{
@@ -342,6 +343,7 @@ h2:hover{
 }
 
 .fifth{
+	margin-top: -50px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -353,7 +355,7 @@ h2:hover{
 	justify-content: space-between;
 	margin-top: 30px;
 	width: 1466px;
-	}
+}
 
 .pack{
 	position: relative;
@@ -521,10 +523,6 @@ h3{
 	margin-top: 30px;
 	height: 1430px;
 	margin-bottom: 94px;
-}
-
-.left_block{
-	margin-right: 65px;
 }
 
 .worth_ul{
@@ -912,7 +910,7 @@ input[type=text] {
 
 .foot_ellipse{
 	position: relative;
-	bottom: 342px;
+	bottom: 338px;
 	left: 260px;
 	width: 136px;
 	height: 136px;
@@ -2487,7 +2485,7 @@ body{
 }
 
 .social{
-	margin-left: 15px;
+	margin-left: -2px;
 }
 
 .leng{
@@ -2505,21 +2503,25 @@ body{
 }
 
 .insta{
+	top: 1px;
 	width: 12px;
 	height: 12px;
 }
 
 .facebook{
+	top: 1px;
 	width: 5px;
 	height: 13px;
 }
 
 .behance{
+	top: 0;
 	width: 16px;
 	height: 10px;
 }
 
 .dribbble{
+	top: 1px;
 	width: 12px;
 	height: 12px;
 }
