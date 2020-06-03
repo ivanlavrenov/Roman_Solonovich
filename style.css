@@ -1531,6 +1531,10 @@ h2{
 	width: 450px;
 }
 
+.fifth{
+	margin-top: 100px;
+}
+
 .packs{
 	width: 1050px;
 }
@@ -1870,6 +1874,7 @@ body{
 }
 
 .number{
+	width: 250px;
 	margin-top: 80px;
 	margin-left: 30px;
 }
@@ -1941,7 +1946,7 @@ body{
 
 .showreel{
 	position: relative;
-	bottom: 70px;
+	bottom: 10px;
 }
 
 .showreel_text{
@@ -2192,6 +2197,11 @@ h3{
 	font-size: 14px;
 	width: 650px;
 	margin-bottom: 30px;
+	margin-left: 30px;
+}
+
+.worth_side_text1{
+	margin-left: 28px;
 }
 
 .foot_ellipse{
@@ -2236,7 +2246,7 @@ h3{
 }
 
 .resume{
-	height: 764px;
+	height: 694px;
 }
 
 .foot_btn{
@@ -2244,7 +2254,7 @@ h3{
 }
 
 .registration{
-	margin-top: 500px;
+	margin-top: 430px;
 	width: 760px;
 	height: 1480px;
 	margin-bottom: 30px;
@@ -2456,12 +2466,13 @@ body{
 .top{
 	margin-top: -40px;
 	width: 100%;
+	margin-bottom: -5px;
 }
-
 
 .first{
 	width: 290px;
 	height: 290px;
+	margin-bottom: 15px;
 }
 
 .main_text{
@@ -2794,6 +2805,7 @@ h3{
 .worth{
 	width: 290px;
 	height: 482px;
+	margin-bottom: 15px;
 }
 
 .worth_header{
@@ -2873,7 +2885,7 @@ h3{
 	width: 289px;
 	height: 665px;
 	margin-bottom: 20px;
-	margin-top: 0px;
+	margin-top: -20px;
 }
 
 .squire, .reg_ellipse, .reg_ellipse2, .reg_ellipse3, .double, .double2, .req_text{

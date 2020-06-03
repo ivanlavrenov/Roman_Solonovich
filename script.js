@@ -72,7 +72,7 @@ $(function() {
   var owl = $(".owl-carousel");
   owl.owlCarousel({
     items: 3,
-    margin: 550,
+    margin: 490,
     loop: true,
     nav: true
   });
