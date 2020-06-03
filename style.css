@@ -818,6 +818,7 @@ h5{
 .for_client{
 	position: relative;
 	bottom: 305px;
+	margin-left: 20px;
 }
 
 h6{
@@ -1310,6 +1311,10 @@ h6{
 	top: 45px;
 	margin-top: -70px;
 	margin-left: 35px;
+}
+
+.for_client{
+	margin-left: 0px;
 }
 
 .text{
@@ -2382,6 +2387,7 @@ h5{
 .for_client{
 	position: relative;
 	bottom: 205px;
+	margin-left: 10px;
 }
 
 h6{
@@ -3007,6 +3013,7 @@ h5, .cloud_text{
 
 .for_client{
 	bottom:  358px;
+	margin-left: 0;
 }
 
 h6{
