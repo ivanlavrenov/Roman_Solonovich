@@ -1,12 +1,12 @@
 @font-face{
-	font-family: "NeueMachina";
+	font-family:"NeueMachina";
 	src: url(./fonts/NeueMachina.otf);
 	src: url(./fonts/NeueMachina-Regular.otf);
 	src: url(./fonts/NeueMachina-Ultrabold.otf);
 }
 
 body{
-	background: #F0EFF4;
+	background: linear-gradient(286.27deg, #C3D1E4 -0.02%, #DDE7F3 54.14%, #D4E0ED 100.43%);
 }
 
 .home-demo{
@@ -31,8 +31,7 @@ body{
 	width: 700px;
 	height: 700px;
 	top: 31px;
-	background: #F0EFF4;
-	box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.1), -6px -6px 16px rgba(255, 255, 255, 0.5);
+	background: linear-gradient(210.55deg, #EBF2F9 19.14%, #C6D7EB 154.68%);	box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.1), -6px -6px 16px rgba(255, 255, 255, 0.5);
 	border-radius: 15px;
 
 }
@@ -41,7 +40,7 @@ body{
 	font-family: NeueMachina;
 	color: #443E5B;
 	font-style: normal;
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 140%;
 	letter-spacing: 0.02em;
@@ -57,7 +56,7 @@ body{
 .side_text{
 	font-family: Inter;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 300;
 	font-size: 24px;
 	line-height: 130%;
 	color: #443E5B;
@@ -71,7 +70,7 @@ body{
 .number{
 	font-family: NeueMachina;
 	font-style: normal;
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 20px;
 	line-height: 100%;
 	letter-spacing: 0.02em;
@@ -81,19 +80,27 @@ body{
 	margin-left: 30px;
 	margin-bottom: 26px;
 	cursor: pointer;
+	width: 200px;
 }
 
 .number:hover{
+	transition: 0.7s;
 	color: #443E5B;
 }
 
 .logos{
 	margin-right: 19px;
 	cursor: pointer;
+	position: relative;
 }
 
-.logos:hover{ 
+.logos:hover{
+	top: -5px;
+	transition: 0.7s;
+}
 
+.vk, .facebook{
+	top: 0;
 }
 
 .dribbble{
@@ -113,7 +120,7 @@ body{
 
 .behance{
 	position: relative;
-	bottom: 1px;
+	top: -1px;
 }
 
 .social{
@@ -125,7 +132,7 @@ body{
 	font-family: NeueMachina;
 	color: #8E86AC;
 	font-style: normal;
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 20px;
 	line-height: 140%;
 	letter-spacing: 0.02em;
@@ -137,6 +144,7 @@ body{
 }
 
 .leng:hover{
+	transition: 0.7s;
 	color: #443E5B;
 }
 
@@ -158,7 +166,7 @@ body{
 	width: 700px;
 	height: 700px;
 	top: 30px;
-	background: #F0EFF4;
+	background: linear-gradient(210.55deg, #EBF2F9 19.14%, #C6D7EB 154.68%);
 	border-radius: 15px;
 	box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.1), -6px -6px 16px rgba(255, 255, 255, 0.5);
 }
@@ -166,7 +174,7 @@ body{
 
 .ellipse{
 	position: absolute;
-	bottom: 480px;
+	bottom: 485px;
 	left: 475px;
 }
 
@@ -183,24 +191,25 @@ body{
 }
 
 .rs{
+	margin-left: 10px;
 	font-family: NeueMachina;
 	position: absolute;
 	font-style: normal;
-	bottom: 290px;
+	bottom: 285px;
 	font-style: normal;
-	font-weight: 900;
-	font-size: 202.222px;
+	font-weight: 700;
+	font-size: 200.222px;
 	line-height: 100%;
-	letter-spacing: 0.02em;
 	text-transform: uppercase;
-	color: #F0EFF4;
-	text-shadow: 4.46531px 4.46531px 11.9075px rgba(0, 0, 0, 0.1), -4.46531px -4.46531px 11.9075px rgba(255, 255, 255, 0.5);
+	background: linear-gradient(#EBF2F9 14.14%, #cedded 14.68%);
+	-webkit-background-clip: text;  
+	color: transparent;
 }
 
 .sharp{
 	font-family: NeueMachina;
 	font-style: normal;
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 20px;
 	line-height: 140%;
 	letter-spacing: 0.02em;
@@ -276,7 +285,7 @@ body{
 	line-height: 140%;
 	letter-spacing: 0.02em;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: #8E86AC;
 	text-shadow: -1px -1px 4px rgba(255, 255, 255, 0.5), 2px 2px 4px rgba(0, 0, 0, 0.1);
 	cursor: pointer;
 }
@@ -286,7 +295,7 @@ body{
 	width: 700px;
 	height: 700px;
 	top: 30px;
-	background: #F0EFF4;
+	background:  linear-gradient(210.55deg, #EBF2F9 19.14%, #C6D7EB 154.68%);
 	border-radius: 15px;
 	box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.1), -6px -6px 16px rgba(255, 255, 255, 0.5);
 }
@@ -294,7 +303,7 @@ body{
 h1{
 	font-family: NeueMachina;
 	font-style: normal;
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 140%;
 	letter-spacing: 0.02em;
@@ -302,6 +311,11 @@ h1{
 	color: #443E5B;
 	margin-left: 30px;
 	margin-top: 30px;
+}
+
+.party{
+	position: relative;
+	top: 5px;
 }
 
 .clients_li{
@@ -312,6 +326,34 @@ h1{
 	letter-spacing: 0.02em;
 	color: #8E86AC;
 	margin-bottom: 25px;
+}
+
+.clients_img{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+}
+
+.clients_img1:before{
+	content: url(./img/ru.png);
+	position: absolute;
+	left: 25px;
+}
+
+.clients_img2:before{
+	content: url("./img/us.png");
+	position: absolute;
+	display: block;
+	left: 25px;
+}
+
+.clients_img3:before{
+	content: url("./img/lock.png");
+	position: absolute;
+	display: block;
+	left: 25px;
 }
 
 ul{
@@ -325,9 +367,11 @@ h2{
 	font-weight: bold;
 	font-size: 20px;
 	margin-bottom: 6px;
+	margin-left: 25px;
 }
 
 h2:hover{
+	transition: 0.7s;
 	color: #443E5B;
 	cursor: pointer;
 }
@@ -335,11 +379,12 @@ h2:hover{
 .side{
 	width: 594px;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 300;
 	font-size: 14px;
 	line-height: 130%;
 	color: #A9A4BA;
 	margin-top: 6px;
+	margin-left: 25px;
 }
 
 .fifth{
@@ -361,7 +406,7 @@ h2:hover{
 	position: relative;
 	width: 457px;
 	height: 700px;
-	background: #F0EFF4;
+	background: linear-gradient(222.12deg, #EBF2F9 19.14%, #C6D7EB 154.68%);
 	box-shadow: 4.66667px 4.66667px 12.4444px rgba(0, 0, 0, 0.1), -4.66667px -4.66667px 12.4444px rgba(255, 255, 255, 0.5);
 	border-radius: 15px;
 }
@@ -394,7 +439,7 @@ h2:hover{
 h3{
 	font-family: NeueMachina;
 	font-style: normal;
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 140%;
 	letter-spacing: 0.02em;
@@ -417,7 +462,7 @@ h3{
 .pack_text{
 	font-family: Inter;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 300;
 	font-size: 14px;
 	line-height: 130%;
 	color: #A9A4BA;
@@ -439,7 +484,7 @@ h3{
 	width: 70px;
 	height: 20px;
 	padding: 6px 14px;
-	background: #F0EFF4;
+	background: inset 2px 2px 5px rgba(105, 141, 173, 0.4);
 	box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1), inset -2px 2px 3px rgba(255, 255, 255, 0.5);
 	border-radius: 5px;
 	margin-left: 30px;
@@ -462,7 +507,7 @@ h3{
 .term_button{
 	width: 86px;
 	height: 30px;
-	background: #F0EFF4;
+	background: inset 2px 2px 5px rgba(105, 141, 173, 0.4);
 	box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1), inset -2px 2px 3px rgba(255, 255, 255, 0.5);
 	border-radius: 5px;
 	margin-bottom: 26px;
@@ -501,7 +546,7 @@ h3{
 
 .btn, .btn2, .btn3{
 	position: absolute;
-	left: -8px;
+	left: -6px;
 }
 
 .btn{
@@ -538,7 +583,8 @@ h3{
 .worth{
 	width: 700px;
 	height: 700px;
-	background: #F0EFF4;
+	background-image: url(./img/subtract.png);
+	background-position: center;
 	border-radius: 15px;
 	box-shadow: 4.66667px 4.66667px 12.4444px rgba(0, 0, 0, 0.1), -4.66667px -4.66667px 12.4444px rgba(255, 255, 255, 0.5);
 	margin-bottom: 30px;
@@ -551,7 +597,7 @@ h3{
 	margin-left: 30px;
 	font-family: NeueMachina;
 	font-style: normal;
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 140%;
 	letter-spacing: 0.02em;
@@ -571,13 +617,57 @@ h3{
 .worth_side_text{
 	font-family: Inter;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 300;
 	font-size: 14px;
 	line-height: 130%;
 	color: #A9A4BA;
 	margin-top: -15px;
-	margin-left: 30px;
+	margin-left: 23px;
+	margin-bottom: 30px;
 }
+
+.light:before{
+	content: url(./img/light.png);
+	top: 2px;
+	position: relative;
+	margin-right: 5px;
+}
+
+.chain:before{
+	content: url(./img/chain.png);
+	top: 2px;
+	position: relative;
+	margin-right: 5px;
+}
+
+.note:before{
+	content: url(./img/note.png);
+	top: 2px;
+	position: relative;
+	margin-right: 5px;
+}
+
+.shirt:before{
+	content: url(./img/shirt.png);
+	top: 2px;
+	position: relative;
+	margin-right: 5px;
+}
+
+.folded:before{
+	content: url(./img/folded.png);
+	top: 2px;
+	position: relative;
+	margin-right: 5px;
+}
+
+.hands:before{
+	content: url(./img/hands.png);
+	top: 2px;
+	position: relative;
+	margin-right: 5px;
+}
+
 
 .sheet{
 	z-index: 0;
@@ -586,7 +676,7 @@ h3{
 .resume{
 	width: 700px;
 	height: 700px;
-	background: #F0EFF4;
+	background:  linear-gradient(210.55deg, #EBF2F9 19.14%, #C6D7EB 154.68%);
 	box-shadow: 4.66667px 4.66667px 12.4444px rgba(0, 0, 0, 0.1), -4.66667px -4.66667px 12.4444px rgba(255, 255, 255, 0.5);
 	border-radius: 15px;
 }
@@ -595,7 +685,7 @@ h3{
 	position: relative;
 	font-family: NeueMachina;
 	font-style: normal;
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 140%;
 	letter-spacing: 0.02em;
@@ -609,7 +699,7 @@ h3{
 
 .resume_ul{
 	list-style-type: none;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 .resume_li{
@@ -628,7 +718,7 @@ h3{
 .resume_side_text{
 	font-family: Inter;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 300;
 	font-size: 14px;
 	line-height: 130%;
 	color: #A9A4BA;
@@ -647,7 +737,7 @@ h3{
 .registration{
 	width: 700px;
 	height: 1430px;
-	background: #F0EFF4;
+	background:  linear-gradient(210.55deg, #EBF2F9 19.14%, #C6D7EB 154.68%);
 	box-shadow: 4.66667px 4.66667px 12.4444px rgba(0, 0, 0, 0.1), -4.66667px -4.66667px 12.4444px rgba(255, 255, 255, 0.5);
 	border-radius: 45px;
 }
@@ -691,7 +781,8 @@ h3{
 
 .double{
 	position: relative;
-	width: 48px;
+	width: 58px;
+	height: 52px;
 	bottom: 570px;
 	left: 55px;
 }
@@ -715,26 +806,33 @@ h3{
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.02em;
-	text-decoration-line: underline;
 	text-transform: uppercase;
 	color: #8E86AC;
 	cursor: pointer;
 	z-index: 1;
 }
 
-.req_text:hover{
+.req_text1:hover{
+	transition: 0.7s;
+	text-decoration-line: none;
+}
+
+.req_text2:hover{
+	transition: 0.7s;
 	text-decoration-line: none;
 }
 
 .req_text1{
 	bottom: 607px;
 	left: 36px;
+	text-decoration-line: underline;
 }
 
 .req_text2{
 	bottom: 585px;
 	width: 128px;
 	left: 197px;
+	text-decoration-line: underline;
 }
 
 .req_text3{
@@ -762,7 +860,7 @@ h4{
 .reg_side_text{
 	font-family: Inter;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 300;
 	font-size: 14px;
 	line-height: 130%;
 	color: #A9A4BA;
@@ -795,7 +893,7 @@ h5{
 	position: relative;
 	font-family: Inter;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 300;
 	font-size: 14px;
 	line-height: 130%;
 	color: #A9A4BA;
@@ -808,7 +906,7 @@ h5{
 	position: relative;
 	width: 299px;
 	height: 105px;
-	background: #F0EFF4;
+	background: linear-gradient(191.71deg, #EBF2F9 19.14%, #C6D7EB 154.68%);
 	box-shadow: 4.22004px 4.22004px 11.2534px rgba(0, 0, 0, 0.1), -4.22004px -4.22004px 11.2534px rgba(255, 255, 255, 0.5);
 	border-radius: 25px 25px 0px 25px;
 	bottom: 270px;
@@ -825,7 +923,7 @@ h6{
 	position: relative;
 	font-family: NeueMachina;
 	font-style: normal;
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 140%;
 	letter-spacing: 0.02em;
@@ -843,6 +941,16 @@ h6{
 	margin-bottom: 13px;
 }
 
+.registration_number{
+	-moz-appearance: textfield;
+	text-indent: 20px;
+	color: #443E5B;
+}
+
+.registration_number::-webkit-inner-spin-button { 
+ 	display: none;
+}
+
 .text{
 	font-family: Inter;
 	font-style: normal;
@@ -852,30 +960,24 @@ h6{
 	width: 578px;
 	height: 70px;
 	border: 1px solid #E7E7E7;
-	box-sizing: border-box;
-	box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.08), inset -4px 4px 10px rgba(255, 255, 255, 0.4);
-	border-radius: 8px;
+	background: #E3EDF7;
+	box-shadow: inset 2px 2px 5px rgba(136, 165, 191, 0.38), inset -3px -3px 7px #FFFFFF;
+	border-radius: 16px;
 	outline: none;
+	text-indent: 20px; 
 }
 
-input[type="text"]::placeholder { color: #8E86AC;}
-input[type="text"]::-webkit-text-decoration,
-input[type="text"]::-webkit-text-cancel-button,
-input[type="text"]::-webkit-text-results-button,
-input[type="text"]::-webkit-text-results-decoration { display: none; }
-input[type=text] {
-    border: none;
-    background: none;
-    outline: none;
-    padding: 0;
-    color: #443E5B;
-    text-indent: 20px; 
-    background: #F0EFF4;
-}
 
 .line{ 
 	text-decoration-line: underline;
 	cursor: pointer;
+	color: #A9A4BA;
+}
+
+.line:active,
+.line:hover{
+	transition: 0.7s;
+	color: #443E5B;
 }
 
 .accept1{
@@ -892,7 +994,7 @@ input[type=text] {
 	height: 20.5px;
 	left: 1px;
 	top: 1px;
-	visibility: hidden;
+	visibility: visible;
 	cursor: pointer;
 }
 
@@ -915,7 +1017,7 @@ input[type=text] {
 	left: 260px;
 	width: 136px;
 	height: 136px;
-	background: #F0EFF4;
+	background: linear-gradient(210.55deg, #EBF2F9 19.14%, #C6D7EB 154.68%);
 	box-shadow: 4.3311px 4.3311px 11.5496px rgba(0, 0, 0, 0.1), -4.3311px -4.3311px 11.5496px rgba(255, 255, 255, 0.5);
 	border-radius: 14.437px;
 	border-radius: 50%;
@@ -924,27 +1026,23 @@ input[type=text] {
 }
 
 .foot_ellipse:focus{
-	background: #F0EFF4;
-	border: 1px solid #DEDEDE;
-	box-sizing: border-box;
+	background: linear-gradient(210.55deg, #EBF2F9 19.14%, #C6D7EB 154.68%);
 	box-shadow: 4.3311px 4.3311px 11.5496px rgba(0, 0, 0, 0.1), -4.3311px -4.3311px 11.5496px rgba(255, 255, 255, 0.5);
 	border-radius: 14.437px;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+	border-radius: 50%;
 }
 
 .foot_ellipse:hover{
-	background: #F0EFF4;
+	background: linear-gradient(210.55deg, #EBF2F9 19.14%, #C6D7EB 154.68%);
 	box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.12), -8px -8px 16px rgba(255, 255, 255, 0.52);
-	border-radius: 14.437px;
+	border-radius: 14px;
 	border-radius: 50%;
 }
 
 .foot_ellipse:active{
-	background: #F0EFF4;
-	border: 1px solid #E7E7E7;
-	box-sizing: border-box;
+	background: linear-gradient(210.55deg, #EBF2F9 19.14%, #C6D7EB 154.68%);
 	box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.08), inset -4px 4px 10px rgba(255, 255, 255, 0.4);
-	border-radius: 8px;
-	border-radius: 14.437px;
 	border-radius: 50%;
 }
 
@@ -1037,6 +1135,7 @@ input[type=text] {
 }
 
 .number{
+	width: 180px;
 	margin-top: 150px;
 	margin-bottom: 15px;
 	font-size: 18px;
@@ -1052,9 +1151,11 @@ input[type=text] {
 }
 
 .rs{
-	font-size: 170px;
-	top: -150px;
+	font-size: 150px;
+	top: -110px;
 	left: 20px;
+	line-height: 90%;
+	font-size: 150px;
 }
 
 .solo{
@@ -1120,6 +1221,7 @@ h2{
 
 .fifth{
 	width: 100%;
+	margin-top: -20px;
 }
 
 .pack{
@@ -1180,6 +1282,11 @@ h3{
 .worth_header{
 	font-size: 32px;
 	top: 15px;
+	margin-bottom: 0px;
+}
+
+.worth_ul{
+	margin-top: 35px;
 }
 
 .worth_text{
@@ -1251,7 +1358,7 @@ h3{
 }
 
 .double{
-	width: 30px;
+	width: 35px;
 	height: 30px;
 	bottom: 345px;
 	left: 165px;
@@ -1315,6 +1422,7 @@ h6{
 
 .for_client{
 	margin-left: 0px;
+	bottom: 320px;
 }
 
 .text{
@@ -1328,7 +1436,7 @@ h6{
 }
 
 .foot_ellipse{
-	bottom: 330px;
+	bottom: 350px;
 	left: 230px;
 	width: 110px;
 	height: 110px;
@@ -1456,31 +1564,34 @@ h6{
 .solo{
 	width: 450px;
 	height: 500px;
-	left: 60px;
+	left: 40px;
 }
 
 .rs{
-	font-size: 130px;
-	top: -100px;
-	left: 30px;
+	font-size: 140px;
+	top: -120px;
+	left: 10px;
+	line-height: 100%;
+	height: 130px;
 }
 
 .ellipse{
-	width: 110px;
-	height: 110px;
-	left: 370px; 
+	width: 120px;
+	height: 120px;
+	left: 360px; 
+	top: 35px;
 
 }
 
 .glases{
 	width: 160px;
 	bottom: 304px;
-	left: 212px;
+	left: 192px;
 }
 
 @keyframes around {
-  0% { left: 212; top: -1000px; transform: rotate(0deg); }
-  100% { left: 212px; top: 36px; transform: rotate(0deg); }
+  0% { left: 192; top: -1000px; transform: rotate(0deg); }
+  100% { left: 192px; top: 36px; transform: rotate(0deg); }
 }
 
 .sharp{
@@ -1524,11 +1635,24 @@ h1{
 
 .clients{
 	margin-left: 15px;
+	margin-top: 30px;
 }
 
 h2{
 	font-size: 14px;
-	margin-top: -10px;
+	margin-top: -15px;
+}
+
+.clients_img1:before{
+	left: 15px;
+}
+
+.clients_img2:before{
+	left: 15px;
+}
+
+.clients_img3:before{
+	left: 15px;
 }
 
 .side{
@@ -1582,22 +1706,29 @@ h3{
 
 .worth_header{
 	font-size: 26px;
-	margin-left: 15px;
+	margin-left: 20px;
+	margin-bottom: 30px;
 }
 
 .worth_ul{
 	margin-top: 0;
-	margin-left: 15px;
+	margin-left: 20px;
 }
 
 .worth_text{
 	font-size: 14px;
+	margin-bottom: 18px;
 }
 
 .worth_side_text{
 	font-size: 12px;
 	width: 400px;
 	margin-left: 23px;
+	margin-bottom: 10px;
+}
+
+.worth_img{
+	top: 6px;
 }
 
 .foot_br{
@@ -1758,7 +1889,7 @@ h6{
 
 .double{
 	position: relative;
-	width: 28px;
+	width: 34px;
 	height: 28px;
 	bottom: 330px;
 	left: 155px;
@@ -1810,6 +1941,14 @@ h4{
 	font-size: 12px;
 }
 
+.for_client{
+	bottom: 305px;
+}
+
+.foot_ellipse{
+	bottom: 330px;
+}
+
 }
 
 
@@ -1832,7 +1971,7 @@ h4{
 
 body{
 	max-width: 992px;
-	min-width: 760px;
+	height: 6600px;
 	display: block;
 }
 
@@ -1916,10 +2055,11 @@ body{
 	top: -175px;
 	left: -20px;
 	font-size: 202.222px;
+	height: 200px;
 }
 
 .ellipse{
-	bottom: 445px;
+	top: 40px;
 	left: 500px;
 	width: 176.44px;
 	height: 176.44px;
@@ -1941,6 +2081,7 @@ body{
 
 .projects{
 	width: 100%;
+	margin-bottom: 40px;
 }
 
 .container{
@@ -1971,7 +2112,8 @@ body{
 	margin-right: auto;
 	width: 760px;
 	height: 651px;
-	margin-top: -35px;
+	top: 0;
+	margin-top: -20px;
 }
 
 h1{
@@ -1986,6 +2128,18 @@ h1{
 h2{
 	font-size: 20px;
 	margin-bottom: 15px;
+}
+
+.clients_img1:before{
+	left: 30px;
+}
+
+.clients_img2:before{
+	left: 30px;
+}
+
+.clients_img3:before{
+	left: 30px;
 }
 
 .side{
@@ -2009,7 +2163,8 @@ h2{
 .home-demo{
 	display: block;
 	width: 100%;
-	margin-bottom: -25px;
+	height: 730px;
+	margin-bottom: 25px;
 	margin-top: -65px;
 }
 
@@ -2017,7 +2172,7 @@ h2{
 	position: relative;
 	width: 457px;
 	height: 700px;
-	background: #F0EFF4;
+	background: linear-gradient(222.12deg, #EBF2F9 19.14%, #C6D7EB 154.68%);	
 	box-shadow: 4.66667px 4.66667px 12.4444px rgba(0, 0, 0, 0.1), -4.66667px -4.66667px 12.4444px rgba(255, 255, 255, 0.5);
 	border-radius: 15px;
 }
@@ -2057,7 +2212,7 @@ h2{
 h3{
 	font-family: NeueMachina;
 	font-style: normal;
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 140%;
 	letter-spacing: 0.02em;
@@ -2102,7 +2257,7 @@ h3{
 	width: 80px;
 	height: 30px;
 	padding: 6px 14px;
-	background: #F0EFF4;
+	background: #DEE8F2;
 	box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1), inset -2px 2px 3px rgba(255, 255, 255, 0.5);
 	border-radius: 5px;
 	margin-left: 30px;
@@ -2125,7 +2280,7 @@ h3{
 .term_button{
 	width: 106px;
 	height: 40px;
-	background: #F0EFF4;
+	background: #DEE8F2;
 	box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1), inset -2px 2px 3px rgba(255, 255, 255, 0.5);
 	border-radius: 5px;
 	margin-bottom: 26px;
@@ -2167,7 +2322,7 @@ h3{
 }
 
 .foot{
-	margin-top: -680px;
+	margin-top: 30px;
 	width: 100%;
 }
 
@@ -2180,6 +2335,7 @@ h3{
 
 .worth{
 	height: 774px;
+	background-size: 920px;
 }
 
 .worth_header{
@@ -2300,8 +2456,8 @@ h3{
 
 .double{
 	position: relative;
-	width: 48px;
-	height: 48px;
+	width: 58px;
+	height: 50px;
 	bottom: 570px;
 	left: 55px;
 }
@@ -2310,7 +2466,7 @@ h3{
 	position: relative;
 	width: 20px;
 	bottom: 375px;
-	left: 20px;
+	left: 12px;
 }
 
 .req_text{
@@ -2424,7 +2580,7 @@ h6{
 
 .foot_ellipse{
 	position: relative;
-	bottom: 232px;
+	bottom: 238px;
 	left: 300px;
 	width: 136px;
 	height: 136px;
@@ -2467,12 +2623,17 @@ body{
 	max-width: 420px;
 	min-width: 320px;
 	display: block;
+	height: 4520px;
+}
+
+.party{
+	width: 18px;
+	top: 3px;
 }
 
 .top{
 	margin-top: -40px;
 	width: 100%;
-	margin-bottom: -5px;
 }
 
 .first{
@@ -2484,22 +2645,29 @@ body{
 .main_text{
 	font-size: 18px;
 	width: 262px;
+	height: 150px;
 	margin-left: 15px;
+	top: 15px;
+}
+
+.logos:hover{
+	top: -2px;
+	transition: 0.4s;
 }
 
 .side_text{
+	position: relative;
 	font-size: 12px;
 	width: 260px;
 	margin-left: 15px;
-	margin-top: -130px;
+	top: 40px;
 }
-
 
 .number{
  	position: relative;
  	bottom: 6px;
  	font-size: 12px;
- 	margin-top: -20px;
+ 	margin-top: 40px;
  	margin-left: 15px;
  	margin-bottom: 5px;
 }
@@ -2547,8 +2715,10 @@ body{
 }
 
 .us{
-	 width: 10px;
-	 height: 10px;
+	 width: 12px;
+	 height: 12px;
+	 top: 2px;
+	 margin-right: 0px;
 }
 
 .logos{
@@ -2576,14 +2746,15 @@ body{
 .rs{
 	font-size: 83px;
 	top: -70px;
-	left: 5px;
+	left: 0px;
+	height: 75px;
 }
 
 .ellipse{
-	width: 68.96px;	
-	height: 68.96px;
-	left: 205px;
-	top: 25px;
+	width: 75.96px;	
+	height: 75.96px;
+	left: 200px;
+	top: 20px;
 }
 
 .glases{
@@ -2641,6 +2812,7 @@ body{
 	font-size: 12px;
 	opacity: 1;
 	z-index: 1;
+	color: white;
 	left: 40px;
 	top: -73px;
 	width: 150px;
@@ -2655,8 +2827,13 @@ body{
 .fourth{
 	width: 290px;
 	height: 487px;
-	margin-top: -30px;
+	margin-top: 15px;
 	margin-bottom: 20px;
+}
+
+.clients_img{
+	width: 12px;
+	height: 12px;
 }
 
 h1{
@@ -2669,16 +2846,30 @@ h1{
 
 h2{
 	font-size: 12px;
+	width: 242px;
 	line-height: 17px;
-	left: -10px;
+	margin-left: 0px;
 	margin-bottom: 6px;
 }
 
 .side{
 	font-size: 10px;
 	margin-top: -6px;
-	width: 242px;
-	margin-bottom: 25px;
+	width: 222px;
+	margin-bottom: 26px;
+	margin-left: 0;
+}
+
+.clients_img1:before{
+	display: none;
+}
+
+.clients_img2:before{
+	display: none;
+}
+
+.clients_img3:before{
+	display: none;
 }
 
 
@@ -2697,11 +2888,11 @@ h2{
 }
 
 
-
 .fifth{
 	position: relative;
 	display: block;
 	width: 100%;
+	margin-top: 65px;
 }
 
 .packs{
@@ -2822,6 +3013,30 @@ h3{
 	margin-bottom: 30px;
 }
 
+.light:before{
+	display: none;
+}
+
+.chain:before{
+	display: none;
+}
+
+.note:before{
+	display: none;
+}
+
+.shirt:before{
+	display: none;
+}
+
+.folded:before{
+	display: none;
+}
+
+.hands:before{
+	display: none;
+}
+
 .worth_ul{
 	margin-left: 15px;
 	margin-top: 15px;
@@ -2839,7 +3054,7 @@ h3{
 .worth_side_text{
 	width: 240px;
 	font-size: 10px;
-	margin-left: 19px;
+	margin-left: 0px;
 	margin-bottom: 0;
 }
 

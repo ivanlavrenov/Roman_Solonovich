@@ -39,6 +39,10 @@ TxtRotate.prototype.tick = function() {
   }, delta);
 };
 
+
+
+
+
 window.onload = function() {
   var elements = document.getElementsByClassName('txt-rotate');
   for (var i=0; i<elements.length; i++) {
@@ -55,16 +59,14 @@ window.onload = function() {
   document.body.appendChild(css);
 };
 
-
-
 function view(){
     document.getElementById("accept2").style.visibility = "visible";
 };
 
-
 function hid(){
     document.getElementById("accept2").style.visibility = "hidden";
 };
+
 
 
 $(function() {
